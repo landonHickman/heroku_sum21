@@ -7,8 +7,12 @@ function App() {
   return (
     <div className="App">
       <h1>Things (from my api)</h1>
+      <hr/>
       <Things />
+      <hr/>
+      <hr/>
       <h1>Things (from git api)</h1>
+      <hr/>
       <MyProjects />
     </div>
   );

@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :things
   end
+  # catch all routes ....
+  
+  get '*other', to: 'static#index'
 end
